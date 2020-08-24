@@ -1,0 +1,22 @@
+#!bin/bash
+#Program to display the IFELSe statements
+
+echo "enter the value for the count:"
+read count
+#count=97
+if [ $count -eq 100 ]
+then
+echo "count is equal to 100"
+else
+if [ $count -gt 100 ]
+then
+echo "count is greater than 100"
+else
+echo "count is less than 100"
+fi
+fi
+
+
+
+not completed:
+
